@@ -10,7 +10,7 @@ int main(){
 	cin>> palabra;
 	for(int i=0;i<palabra.length();i++){
 		char le=palabra[i];
-		if (gg.count(le)!=0){	
+		if (gg.count(le)==0){	
 		for(int j=i;j<palabra.length();j++){
 			if(le==palabra[j]){
 				cont++;
